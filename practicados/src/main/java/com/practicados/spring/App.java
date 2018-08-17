@@ -18,7 +18,7 @@ public class App {
 		//IEquipo iEquip=(IEquipo)appContext.getBean("barcelona");
 		//System.out.println(iEquip.mostrar());
 		
-		Jugador jug=(Jugador)appContext.getBean("messi");
+		Jugador jug=(Jugador)appContext.getBean("jugador");
 		System.out.println(jug.getNombre()+" "+jug.getEquipo().mostrar());
 		
 		((ConfigurableApplicationContext) appContext).close();

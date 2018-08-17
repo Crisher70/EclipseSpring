@@ -3,9 +3,11 @@ package com.practicados.beans;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Required;
+import org.springframework.stereotype.Component;
 
 import com.practicados.interfaces.IEquipo;
 
+@Component
 public class Jugador {
 
 	private int numero;
@@ -20,7 +22,7 @@ public class Jugador {
 		return equipo;
 	}
 	
-	@Required
+	//@Required
 	public void setEquipo(IEquipo equipo) {
 		this.equipo = equipo;
 	}
