@@ -23,6 +23,5 @@
 	
 	<bean id="juventus" class="com.practicados.beans.Juventus"></bean>
 	
-	<bean id="uchile" class="com.practicados.beans.Juventus"></bean>
 
 </beans>
