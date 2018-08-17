@@ -7,13 +7,13 @@
 
 	<context:annotation-config />
 	
-	<context:component-scan base-package="com.mitocode.beans"></context:component-scan>
+	<context:component-scan base-package="com.practicados.beans"></context:component-scan> 
 	<!-- Etiqueta anotaciones -->
 
-	<!--<bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"></bean>
+	<!-- <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"></bean>
 	<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" ></bean>-->
 
-	<!--  <bean id="messi" class="com.practicados.beans.Jugador">
+	 <!--<bean id="messi" class="com.practicados.beans.Jugador">
 		<property name="numero" value="10"></property>
 		<property name="nombre" value="messi"></property>
 		<property name="equipo" ref="barcelona"></property>
